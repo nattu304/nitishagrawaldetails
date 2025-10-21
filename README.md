@@ -6,6 +6,8 @@
 <body>
 <CENTRE><h1> Nitish Agrawal </h1></CENTRE>
 <p>CA Finalist</p>
+  <img src="profile.jpg" alt="My Profile Picture">
+  
 <p>📍Baloda, Saraipali, Mahasamund, C.G (493558)  </p>
 <p>Mobile No: 7828780780</p>
 <p>Email: nitishagrawal304@gmail.com</p>
