@@ -2,7 +2,6 @@
 <doctype html>
 <html>
 <head>
-<title> Visiting Card </title>
 </HEAD>
 <body>
 <h1>Nitish Agrawal</h1>
