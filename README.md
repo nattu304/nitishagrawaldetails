@@ -141,7 +141,7 @@
 
       <a href="https://wa.me/917828780780?text=Hello%20Nitish%20Agrawal" class="btn btn-whatsapp">WhatsApp</a>
       <a href="nitishagrawal.vcf" class="btn">Download vCard</a>
-      <a href="https://instagram.com/nattu304" class="btn btn-instagram">Instagram</a>
+      <a href="https://instagram.com/nattu.304" class="btn btn-instagram">Instagram</a>
     </div>
 
     <div class="section">
