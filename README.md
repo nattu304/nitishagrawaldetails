@@ -125,7 +125,7 @@
   <div class="container">
 
     <div class="profile">
-      <img src="profile.jpg" alt="Nitish Agrawal">
+      <img src="profile.jpg" alt="Nitish Agrawal"STYLE="WIDTH:200PX;HEIGHT:200PX;">
     </div>
 
     <h1>Nitish Agrawal</h1>
@@ -162,7 +162,7 @@
 
     <div class="qr-section">
       <h2>Scan for UPI Payment</h2>
-      <img src="phonepayqr.jpg" alt="PhonePe UPI QR Code">
+      <img src="PHONEPAYQR.JPG" alt="PhonePe UPI QR Code">
     </div>
 
     <footer>
