@@ -125,8 +125,8 @@
   <div class="container">
 
     <div class="profile">
-      <img src="profile.jpg" alt="Nitish Agrawal"STYLE="WIDTH:200PX;HEIGHT:200PX;">
-    </div>
+  <img src="profile.jpg" alt="Nitish Agrawal" style="width:200px; height:200px;">
+</div>
 
     <h1>Nitish Agrawal</h1>
     <p class="subtitle">CA Finalist</p>
