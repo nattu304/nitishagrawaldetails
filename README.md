@@ -236,10 +236,10 @@
     <div class="section">
       <h2>Professional Services</h2>
       <div class="icon-services">
-        <div class="icon-box">📄 ITR Filing</div>
-        <div class="icon-box">💰 GST Returns</div>
-        <div class="icon-box">📊 Audit</div>
-        <div class="icon-box">🏢 Consultancy</div>
+        <div class="icon-box">📄     ITR Filing</div>
+        <div class="icon-box">💰     GST Returns</div>
+        <div class="icon-box">📊     Audit</div>
+        <div class="icon-box">🏢     Consultancy</div>
       </div>
     </div>
 
