@@ -1,50 +1,78 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nitish Agrawal – CA Finalist</title>
+
+  <!-- Meta & Favicon -->
+  <link rel="icon" href="profile.jpg" type="image/jpeg">
+  <meta name="description" content="Nitish Agrawal – CA Finalist specializing in taxation, GST, and auditing.">
+  <meta property="og:title" content="Nitish Agrawal – CA Finalist">
+  <meta property="og:description" content="CA Finalist passionate about taxation, auditing, and business compliance.">
+  <meta property="og:image" content="https://nattu304.github.io/nitishagrawaldetails/profile.jpg">
+  <meta name="theme-color" content="#0073e6">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
   <style>
     @keyframes fadeInUp {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
 
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
     body {
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #f9fafb;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e6f0ff 0%, #ffffff 100%);
       color: #333;
+      background-attachment: fixed;
     }
 
     .container {
-      max-width: 480px;
-      margin: 40px auto;
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      padding: 24px;
+      max-width: 500px;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      padding: 28px;
       animation: fadeInUp 0.8s ease-out both;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+    .container:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
     }
 
     .profile {
       display: flex;
       justify-content: center;
       margin-bottom: 16px;
-      animation: fadeInUp 1s ease-out both;
     }
 
     .profile img {
-      width: 130px;
-      height: 130px;
+      width: 180px;
+      height: 180px;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+      border: 3px solid #fff;
     }
 
     h1 {
       text-align: center;
       font-size: 2rem;
-      margin: 10px 0 4px;
+      margin: 12px 0 4px;
+      font-weight: 600;
+      color: #004aad;
     }
 
     p.subtitle {
@@ -52,6 +80,27 @@
       color: #555;
       margin-top: 0;
       font-weight: 500;
+      font-size: 1.05rem;
+    }
+
+    p.typing {
+      overflow: hidden;
+      border-right: 2px solid #004aad;
+      white-space: nowrap;
+      width: 0;
+      margin: 8px auto;
+      color: #0073e6;
+      font-weight: 500;
+      animation: typing 3.5s steps(40, end) forwards;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    hr {
+      width: 60%;
+      margin: 14px auto;
+      border: 0;
+      border-top: 2px solid #e0e0e0;
     }
 
     .section {
@@ -61,11 +110,6 @@
       animation: fadeInUp 1s ease forwards;
     }
 
-    .section:nth-child(3) { animation-delay: 0.4s; }
-    .section:nth-child(4) { animation-delay: 0.8s; }
-    .section:nth-child(5) { animation-delay: 1.2s; }
-    .section:nth-child(6) { animation-delay: 1.6s; }
-
     a {
       color: #0073e6;
       text-decoration: none;
@@ -73,20 +117,32 @@
 
     .btn {
       display: inline-block;
-      margin: 8px 6px 0 0;
       padding: 10px 18px;
       text-decoration: none;
       color: #fff;
       background: #0073e6;
       border-radius: 6px;
       font-size: 0.95rem;
-      transition: background 0.3s ease;
+      transition: all 0.3s ease;
     }
 
-    .btn:hover { background: #005bb5; }
+    .btn:hover {
+      background: #005bb5;
+      transform: scale(1.05);
+    }
+
     .btn-whatsapp { background: #25D366; }
     .btn-instagram { background: #E1306C; }
+    .btn-share { background: #0F9D58; }
     .btn-instagram:hover { background: #C92D61; }
+
+    .btn-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
 
     ul {
       list-style: none;
@@ -99,10 +155,30 @@
       color: #0073e6;
     }
 
+    .icon-services {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 15px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .icon-box {
+      width: 100px;
+      padding: 10px;
+      border-radius: 10px;
+      background: #f0f6ff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .icon-box:hover {
+      transform: translateY(-5px);
+    }
+
     .qr-section {
       text-align: center;
       margin-top: 28px;
-      animation: fadeInUp 2s ease-out both;
     }
 
     .qr-section img {
@@ -117,19 +193,22 @@
       color: #777;
       font-size: 0.85rem;
       margin-top: 32px;
-      animation: fadeInUp 2.2s ease-out both;
     }
+
+    html { scroll-behavior: smooth; }
   </style>
 </head>
 <body>
   <div class="container">
 
     <div class="profile">
-  <img src="profile.jpg" alt="Nitish Agrawal" style="width:200px; height:200px;">
-</div>
+      <img src="profile.jpg" alt="Nitish Agrawal">
+    </div>
 
     <h1>Nitish Agrawal</h1>
-    <p class="subtitle">CA Finalist</p>
+    <p class="subtitle">CA Finalist | Vaada & Associates</p>
+    <p class="typing">Helping businesses grow with clarity & compliance.</p>
+    <hr>
 
     <div class="section">
       <h2>Contact</h2>
@@ -139,9 +218,12 @@
         📍 Baloda, Saraipali, Mahasamund, Chhattisgarh 493558
       </p>
 
-      <a href="https://wa.me/917828780780?text=Hello%20Nitish%20Agrawal" class="btn btn-whatsapp">WhatsApp</a>
-      <a href="NITISHAGRAWAL.VCF" class="btn">Download vCard</a>
-      <a href="https://instagram.com/nattu.780" class="btn btn-instagram">Instagram</a>
+      <div class="btn-container">
+        <a href="https://wa.me/917828780780?text=Hello%20Nitish%20Agrawal" class="btn btn-whatsapp">WhatsApp</a>
+        <a href="NITISHAGRAWAL.VCF" class="btn">Download vCard</a>
+        <a href="https://instagram.com/nattu.780" class="btn btn-instagram">Instagram</a>
+        <a href="https://wa.me/?text=Check%20out%20Nitish%20Agrawal’s%20profile:%20https://nattu304.github.io/nitishagrawaldetails" class="btn btn-share">Share My Card</a>
+      </div>
     </div>
 
     <div class="section">
@@ -149,6 +231,17 @@
       <p>
         CA Finalist passionate about taxation, auditing, and helping businesses stay compliant while growing confidently.
       </p>
+      <p><strong>Birthday:</strong> 2nd April 2002</p>
+    </div>
+
+    <div class="section">
+      <h2>Professional Services</h2>
+      <div class="icon-services">
+        <div class="icon-box">📄 ITR Filing</div>
+        <div class="icon-box">💰 GST Returns</div>
+        <div class="icon-box">📊 Audit</div>
+        <div class="icon-box">🏢 Consultancy</div>
+      </div>
     </div>
 
     <div class="section">
@@ -163,10 +256,11 @@
     <div class="qr-section">
       <h2>Scan for UPI Payment</h2>
       <img src="PHONEPAYQR.JPG" alt="PhonePe UPI QR Code">
+      <p style="color:#555; font-size:0.9rem;">Scan using any UPI app (PhonePe, GPay, Paytm)</p>
     </div>
 
     <footer>
-      © 2025 Nitish Agrawal
+      © 2025 Nitish Agrawal | All Rights Reserved
     </footer>
   </div>
 </body>
