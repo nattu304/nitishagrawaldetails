@@ -147,7 +147,7 @@
     <div class="section">
       <h2>About Me</h2>
       <p>
-        I’m a CA Finalist passionate about taxation, auditing, and helping businesses stay compliant while growing confidently.
+        CA Finalist passionate about taxation, auditing, and helping businesses stay compliant while growing confidently.
       </p>
     </div>
 
